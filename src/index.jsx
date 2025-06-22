@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
 //import Hello from './Hello'
-import Counter from './counter.jsx'
-import reportWebVitals from './reportWebVitals';
+//import Counter from './counter.jsx'
+//import Backpack from './Backpack.jsx';
+import Bmi from './Bmi.jsx';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Counter></Counter>
-    {/*<Hello name="Kuntinan" surname="Pengsupap"/>
+    <Bmi></Bmi>
+    {/*<Backpack></Backpack>
+    <Counter/>
+    <Hello name="Kuntinan" surname="Pengsupap"/>
     <Hello wieght="80" long="173"/>
     {/*<App> */}
   </React.StrictMode>

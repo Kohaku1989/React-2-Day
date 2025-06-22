@@ -1,0 +1,52 @@
+/* bmi.css */
+body {
+  background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+  color: #00ffe7;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #feda00;
+  text-shadow: 0 0 10px #feda00, 0 0 20px #ff00cc;
+  font-size: 2rem;
+}
+
+input {
+  background: #121212;
+  color: #00ffe7;
+  border: 2px solid #00ffe7;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+button {
+  background: #ff006e;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff006e;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #feda00;
+  color: #000;
+  box-shadow: 0 0 20px #feda00;
+}
+
+img {
+  margin-top: 20px;
+  border: 4px solid #00ffe7;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ffe7;
+}
